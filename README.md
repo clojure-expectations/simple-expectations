@@ -1,6 +1,6 @@
 # simple-expectations
 
-using a expectations.CustomPred gives you better failure reports when things go poorly.
+using an expectations.CustomPred gives you better failure reports when things go poorly.
 
 ## Output
 
