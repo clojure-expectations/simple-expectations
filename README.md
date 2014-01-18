@@ -2,6 +2,10 @@
 
 using an expectations.CustomPred gives you better failure reports when things go poorly.
 
+## The example src
+
+[jump to tests](https://github.com/jaycfields/simple-expectations/blob/master/test/simple_expectations/core_test.clj)
+
 ## Output
 
 ```clojure
