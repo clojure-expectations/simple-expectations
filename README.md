@@ -4,7 +4,7 @@ Using simple-check with expectations is simple, but the standard failure message
 be desired in my opinon. However, you can use an expectations.CustomPred and get much better
 failure reports when things go poorly.
 
-## The example src
+## The Example Tests
 
 [jump to tests](https://github.com/jaycfields/simple-expectations/blob/master/test/simple_expectations/core_test.clj)
 
