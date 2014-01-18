@@ -1,0 +1,4 @@
+/.lein-failures
+/.nrepl-port
+/target/repl-port
+/target/stale/extract-native.dependencies
