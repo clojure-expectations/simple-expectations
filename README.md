@@ -1,6 +1,8 @@
 # simple-expectations
 
-using an expectations.CustomPred gives you better failure reports when things go poorly.
+using simple-check with expectations is simple, but the standard failure message leaves a bit to
+be desired in my opinon. However, you can use an expectations.CustomPred and get much better
+failure reports when things go poorly.
 
 ## The example src
 
@@ -9,6 +11,7 @@ using an expectations.CustomPred gives you better failure reports when things go
 ## Output
 
 ```clojure
+;;; results from using expectations and simple-check without a CustomPred
 failure in (core_test.clj:18) : simple-expectations.core-test
 (expect {:result true} (in (sc/quick-check 100 prop-no-42)))
 
@@ -18,6 +21,7 @@ failure in (core_test.clj:18) : simple-expectations.core-test
            :result expected: true
                         was: false
 
+;;; results from using expectations and simple-check with a CustomPred
 failure in (core_test.clj:31) : simple-expectations.core-test
 (expect (->SimpleCheck) (sc/quick-check 100 prop-no-42))
 
