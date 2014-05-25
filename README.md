@@ -1,6 +1,6 @@
 # simple-expectations
 
-Using simple-check with expectations is simple, but the standard failure message leaves a bit to
+Using test.check with expectations is simple, but the standard failure message leaves a bit to
 be desired in my opinon. However, you can use an expectations.CustomPred and get much better
 failure reports when things go poorly.
 
